@@ -32,7 +32,7 @@ output: pdf_document
 
 * For the book, R library ISwR (Introductory Statistics with R) can be freely downloaded
 
-* All examples in book used as reference should run provided that ISwR library is not only installed by also loaded into the current search path
+* All examples in the book used as reference should run provided that ISwR library is not only installed by also loaded into the current search path
 
 * Library can be installed and loaded by typing the following command into an R chunk
 
