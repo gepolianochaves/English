@@ -2,15 +2,10 @@
 title: "Introduction to the Command Line (Terminal) and the R Language Syntax"
 author: "Gepoliano Chaves, Ph. D."
 date: "June 09, 2021"
-#output: revealjs::revealjs_presentation
-#output: html_notebook
-#output: beamer_presentation
-#output: github_document
-#output: html_vignette
-#output: ioslides_presentation
-output: slidy_presentation 
-#output: tufte::tufte_book
-#output: pdf_document
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
 ---
 # 1) Basics of R
 
@@ -347,7 +342,9 @@ In our activities to visualize human genomic data, we will use a library called 
 
 # 5.2) Visualizing GWAS
 
-The simplest definition of a GWAS is the statistical or significant association between a phenotype (trait) and a genotype. This association can be called biological association.
+* The simplest definition of a GWAS is the statistical or significant association between a phenotype (trait) and a genotype. This association can also be called *biological association*.
+
+* Information about association of SNPs with Huntington's Disease can be found at the Chaves 2019 Huntington's disease paper
 
 # 5.3.1) Package installation
 
@@ -474,7 +471,7 @@ SNP_HIGHLIGHT <- c("chr4:3043512","chr4:3043513","chr4:3048207","chr4:3224216",
                    "chr4:7735162","chr4:7735164","chr4:7736103","chr4:7736112")
 ```
 
-# 5.7) Plot Manhattan plot
+# 5.7) Biological Association Visualization: Manhattan Plot
 
 * Finally, we plot the Manhattanh plot graph
 
