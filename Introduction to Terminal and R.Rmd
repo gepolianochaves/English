@@ -8,9 +8,9 @@ date: "June 09, 2021"
 #output: github_document
 #output: html_vignette
 #output: ioslides_presentation
-output: slidy_presentation 
+#output: slidy_presentation 
 #output: tufte::tufte_book
-#output: pdf_document
+output: pdf_document
 ---
 # 1) Basics of R
 
@@ -27,6 +27,10 @@ output: slidy_presentation
 * In this course, we will use RStudio and a file format called R Markdown, which allows us to code using not only R, but bash and Python, two other languages we may refer to as the course progresses
 
 # 1.2) Library ISwR
+
+* This Notebook was inspired in the book Introductory Statistics with R, by Peter Dalgaard
+
+* For the book, R library ISwR (Introductory Statistics with R) can be freely downloaded
 
 * All examples in book used as reference should run provided that ISwR library is not only installed by also loaded into the current search path
 
